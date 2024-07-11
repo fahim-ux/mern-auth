@@ -9,7 +9,8 @@
     "server": "nodemon backend/server.js",
     "client": "npm run dev --prefix frontend",
     "frontbuild": "npm run build --prefix frontend",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install-all": "npm install && cd frontend && npm install"
   },
   "author": "Brad Traversy",
   "license": "MIT",
